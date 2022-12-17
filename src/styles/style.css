@@ -370,3 +370,119 @@ section {
 .font-size-60 {
   font-size: 60px;
 }
+
+.form-description {
+  flex-basis: 50%;
+}
+
+.form-description-title {
+  margin: 0px;
+  margin-left: 55px;
+}
+
+.form-block {
+  height: 190px;
+  background-color: var(--primaryDark);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-description {
+  font-family: 'Neucha', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--light);
+}
+
+.footer-form-label {
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--light)
+}
+
+.footer-form {
+  margin-right: 55px;
+}
+
+.input-block {
+  display: flex;
+  height: 50px;
+  margin: 0px;
+  margin-top: 9px;
+}
+
+.footer-input-email {
+  width: 415px;
+  height: 50px;
+  padding: 0px;
+  padding-left: 15px;
+  border-style: none;
+}
+
+.footer-input-email::placeholder {
+  color: var(--ligthGrey);
+  font-weight: 40;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-submit-footer {
+  position: relative;
+
+  width: 70px;
+  height: 50px;
+  border: none;
+
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+.btn-submit-footer::before {
+  position: absolute;
+  top: 13px;
+  right: 0;
+  bottom: 0;
+  left: 18px;
+
+  background-image: url("../../assets/images/send.svg");
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
+
+.btn-submit-footer:hover {
+  background: var(--darkOrange);
+}
+
+.convention-description {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--light);
+}
+
+.convention-description-link {
+  color: var(--white);
+  border: none;
+}
+
+.contacts {
+  margin-top: 76px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.creator-name {
+  margin-bottom: 16px;
+}
+
+.materials-link {
+  margin-bottom: 16px;
+}
+
+.footer-links {
+  color: var(--blue);
+}
