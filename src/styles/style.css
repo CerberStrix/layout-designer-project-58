@@ -94,6 +94,11 @@ section {
   background-color: var(--light);
 }
 
+.bg-brown {
+  z-index: 1;
+  background-color: var(--brown);
+}
+
 .bg-image::before {
   position: absolute;
   top: 0;
@@ -247,6 +252,10 @@ section {
   margin-right: 15px;
 }
 
+.ml-0 {
+  margin-left: 0px;
+}
+
 .ml-15 {
   margin-left: 15px;
 }
@@ -320,6 +329,13 @@ section {
   margin-top: 0px;
 }
 
+.title-block-left {
+  text-align: left;
+  flex-grow: 1;
+  margin-right: 30px;
+  margin-top: 0px;
+}
+
 .demonstration {
   width: 100%;
   height: 26px;
@@ -336,4 +352,16 @@ section {
 
 .demonstration-title {
   margin: 0px;
+}
+
+.white-f {
+  color: var(--light);
+}
+
+.brown-f {
+  color: var(--brown);
+}
+
+.white-bg {
+  background-color: var(--light);
 }
