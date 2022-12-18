@@ -1,47 +1,49 @@
 /** CSS STYLE **/
 
 @font-face {
-  font-weight: 400;                      
-  font-family: 'Neucha';
+  font-weight: 400;                    
+  font-family: "Neucha";
   src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
-  font-weight: 700;                      
+  font-weight: 700;                
   font-family: "Open Sans";
   src: url("../assets/fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
-  font-weight: 400;                      
+  font-weight: 400;             
   font-family: "Open Sans";
   src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
 :root {
   --white: white;
-  --trcWhite: #d7ccc0;
+  --trc-white: #d7ccc0;
   --light: #f5f4f0;
   --primary: #fe8a02;
-  --primaryDark: #42413c;
+  --primary-dark: #42413c;
   --dark: #2a2626;
-  --trcDark: #908d8b;
+  --trc-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --darkOrange: #EA7600;
+  --dark-orange: #ea7600;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
   background-color: var(--white);
   margin: 0;
   overflow-x: hidden;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
 }
@@ -121,7 +123,7 @@ section {
 }
 
 .pdark-color {
-  color: var(--primaryDark);
+  color: var(--primary-dark);
 }
 
 .header-image {
@@ -166,7 +168,7 @@ section {
 }
 
 .btn:hover {
-  background: var(--darkOrange);
+  background: var(--dark-orange);
 }
 
 .btn-header-more {
@@ -200,7 +202,7 @@ section {
 }
 
 .cognitive-biases {
-  background-color: var(--primaryDark);
+  background-color: var(--primary-dark);
   padding-top: 100px;
 }
 
@@ -223,7 +225,7 @@ section {
   margin-top: 20px;
 }
 .card-number {
-  color: var(--primaryDark);
+  color: var(--primary-dark);
   font-family: "Neucha", cursive;
   font-weight: 400;
   font-size: 64px;
@@ -382,7 +384,7 @@ section {
 
 .form-block {
   height: 190px;
-  background-color: var(--primaryDark);
+  background-color: var(--primary-dark);
   align-items: center;
   justify-content: space-between;
 }
@@ -421,7 +423,7 @@ section {
 }
 
 .footer-input-email::placeholder {
-  color: var(--ligthGrey);
+  color: var(--ligth-grey);
   font-weight: 40;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
@@ -453,7 +455,7 @@ section {
 
 
 .btn-submit-footer:hover {
-  background: var(--darkOrange);
+  background: var(--dark-orange);
 }
 
 .convention-description {
