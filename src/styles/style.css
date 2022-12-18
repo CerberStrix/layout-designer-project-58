@@ -183,7 +183,7 @@ section {
 }
 
 .about-description {
-  margin-top: 27px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -485,4 +485,11 @@ section {
 
 .footer-links {
   color: var(--blue);
+}
+
+.about-title {
+  font-family: 'Neucha', cursive;
+  font-size: 60px;
+  line-height: 120%;
+  color: var(--dark);
 }
