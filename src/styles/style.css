@@ -223,6 +223,23 @@ section {
   margin-top: 20px;
 }
 
+.card:hover {
+  color: var(--light);
+  background-color: var(--primary);
+}
+
+.card:hover .card-number {
+  color: var(--light);
+}
+
+.card:hover .card-title {
+  color: var(--light);
+}
+
+.card:hover .card-description {
+  color: var(--light);
+}
+
 .card-number {
   color: var(--primary-dark);
   font-family: Neucha, cursive;
