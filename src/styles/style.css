@@ -176,7 +176,7 @@ section {
 }
 
 .pb0 {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .tcenter {
@@ -225,11 +225,11 @@ section {
 
 .card-number {
   color: var(--primary-dark);
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-weight: 400;
   font-size: 64px;
   line-height: 1;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
@@ -246,7 +246,7 @@ section {
 }
 
 .mt0 {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .mr-15 {
@@ -254,7 +254,7 @@ section {
 }
 
 .ml-0 {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .ml-15 {
@@ -285,7 +285,7 @@ section {
 }
 
 .card-image {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .container-header {
@@ -295,29 +295,29 @@ section {
 .footer-column {
   flex: 1 1 0px;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .defenition {
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  margin: 0px;
+  margin: 0;
   opacity: 0.5;
 }
 
 .defenition-title {
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
   font-size: 64px;
   line-height: 72px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
 .defenition-description {
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
@@ -327,14 +327,14 @@ section {
   text-align: left;
   flex-grow: 1;
   margin-left: 30px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .title-block-left {
   text-align: left;
   flex-grow: 1;
   margin-right: 30px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .demonstration {
@@ -345,7 +345,7 @@ section {
   text-align: left;
   background-color: var(--brown);
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
@@ -353,7 +353,7 @@ section {
 }
 
 .demonstration-title {
-  margin: 0px;
+  margin: 0;
 }
 
 .white-f {
@@ -372,12 +372,8 @@ section {
   font-size: 60px;
 }
 
-.form-description {
-  flex-basis: 50%;
-}
-
 .form-description-title {
-  margin: 0px;
+  margin: 0;
   margin-left: 55px;
 }
 
@@ -389,7 +385,8 @@ section {
 }
 
 .form-description {
-  font-family: 'Neucha', sans-serif;
+  flex-basis: 50%;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
   font-size: 34px;
   line-height: 120%;
@@ -399,7 +396,7 @@ section {
 .footer-form-label {
   font-size: 18px;
   line-height: 160%;
-  color: var(--light)
+  color: var(--light);
 }
 
 .footer-form {
@@ -409,14 +406,14 @@ section {
 .input-block {
   display: flex;
   height: 50px;
-  margin: 0px;
+  margin: 0;
   margin-top: 9px;
 }
 
 .footer-input-email {
   width: 415px;
   height: 50px;
-  padding: 0px;
+  padding: 0;
   padding-left: 15px;
   border-style: none;
 }
@@ -452,13 +449,12 @@ section {
   content: "";
 }
 
-
 .btn-submit-footer:hover {
   background: var(--dark-orange);
 }
 
 .convention-description {
-  margin: 0px;
+  margin: 0;
   font-weight: 400;
   font-size: 12px;
   color: var(--light);
@@ -489,7 +485,7 @@ section {
 }
 
 .about-title {
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   font-size: 60px;
   line-height: 120%;
   color: var(--dark);
