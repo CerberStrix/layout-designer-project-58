@@ -228,18 +228,6 @@ section {
   background-color: var(--primary);
 }
 
-.card:hover .card-number {
-  color: var(--light);
-}
-
-.card:hover .card-title {
-  color: var(--light);
-}
-
-.card:hover .card-description {
-  color: var(--light);
-}
-
 .card-number {
   color: var(--primary-dark);
   font-family: Neucha, cursive;
@@ -250,12 +238,20 @@ section {
   margin-bottom: 40px;
 }
 
+.card:hover .card-number {
+  color: var(--light);
+}
+
 .card-title {
   color: var(--primary);
   font-size: 34px;
   line-height: 120%;
   font-weight: 400;
   margin-bottom: 16px;
+}
+
+.card:hover .card-title {
+  color: var(--light);
 }
 
 .mb12 {
@@ -280,6 +276,10 @@ section {
 
 .card-description {
   color: var(--dark);
+}
+
+.card:hover .card-description {
+  color: var(--light);
 }
 
 .cognitive-biases-title {
